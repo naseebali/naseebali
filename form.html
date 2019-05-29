@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        /* background-color: steelblue; */
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    form{
+        /* text-align: center; */
+        margin: 10px auto;
+    width: 320px;
+    color: steelblue;
+    }
+    input{
+        padding: 10px;
+        
+    }
+    input[type="text"]{
+        margin-bottom: 15px;
+ width: 100%;
+ border: 2px solid steelblue;   
+ background: lightgray;;
+    }
+    input[type="password"]{
+        margin-bottom: 15px;
+ width: 100%;
+ border: 2px solid steelblue; 
+ text-decoration: underline;
+ background: lightgray;
+    }
+    input[type="radio"]{
+    margin: 0px 5px 15px 0px;
+    margin-left: 0;
+    background: lightgray;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    background: steelblue;
+    color: white;
+    margin: 0px 5px 2px 0px;
+
+}
+input:hover{
+    background-color: white;
+}
+#submit:hover{background:rgb(110, 201, 236);
+     
+    }
+    </style>
+</head>
+
+<body>
+        <h1>REGISTER</h1>
+    <form action="#">      
+        <input type="text" name="firstname" placeholder="First Name">
+        <input type="text" name="lastname" placeholder="Last Name">
+        <input type="text" name="email" placeholder="Email ID">
+        <input type="text" name="address" placeholder="Enter your address">
+        <input type="password" name="password" placeholder="Enter you password">
+        <input type="password" name="confirmpassword" placeholder="Confirm Password">
+        <div>
+            <input type="radio" name="gender" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        </div>
+        <input type="submit" name="submit" id="submit">
+        <p>If you already have an account please sign in<button input type="button" id="submit">signIn</button> </p>
+
+    </form>
+</body>
+
+</html>
